@@ -1,0 +1,67 @@
+p  {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  color: #000000
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+}
+#caixaColor {
+  width: 150px;
+  height: 150px;
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0px 11px 10px -8px rgba(0, 0, 0, 1);
+}
+.caixaInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#inputText {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 2px 7px -1px rgba(0, 0, 0, 1);
+  padding: .5rem .9rem;
+}
+button {
+  border: none;
+  border-radius: 6px;
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 1);
+  padding: .5rem .9rem;
+  font-size: 17px;
+  transition: background .3s;
+  cursor: pointer;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0rem .4rem 3rem -1rem rgba(0, 0, 0, 1);
+  background-color: #fff;
+}
+#inputText {
+  cursor: pointer;
+  transition: 0.3s;
+}
+#inputText:focus {
+  outline: 2px solid #110b2e;
+}
+button:hover {
+  background-color: #110b2e;
+  color: #fff;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+}
+.hide {
+  display: none;
+}
